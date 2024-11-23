@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EzTimeManage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>EzTimeManage</h1>
+    </header>
+    <main>
+        <section id="task-list">
+            <h2>Tasks</h2>
+            <form id="add-task-form">
+                <input type="text" id="task-name" placeholder="Enter task" required>
+                <input type="datetime-local" id="task-start" required>
+                <input type="time" id="task-end" required>
+                <input type="text" id="task-description" placeholder="Description (optional)">
+                <button type="submit">Add Task</button>
+            </form>
+            <div id="tasks"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Made by Marvin. Stay on task!</p>
+    </footer>
+    <div id="motivation-overlay"></div>
+    <script src="script.js"></script>
+</body>
+</html>
