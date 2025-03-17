@@ -1,5 +1,13 @@
 {
   "name": "EZTimeManage",
+  "icons": [
+    {
+        "src": "https://cdn-icons-png.flaticon.com/512/4388/4388160.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+    }
+  ],
   "theme_color": "#39b332",
   "background_color": "#ffffff",
   "short_name": "EZTM",
